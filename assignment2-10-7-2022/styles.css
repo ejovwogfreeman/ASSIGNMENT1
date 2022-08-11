@@ -1,0 +1,30 @@
+.cyan {
+    border-top: 5px solid cyan;
+    display: flex;
+}
+
+.red {
+    border-top: 5px solid red
+}
+
+.gold {
+    border-top: 5px solid gold;
+}
+
+.purple {
+    border-top: 5px solid purple;
+    display: flex;
+}
+
+.container {
+    padding: 0px 10%;
+}
+
+.container p {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+}
+
+.container img {
+    width: 50px;
+}
