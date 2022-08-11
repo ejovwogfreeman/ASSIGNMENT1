@@ -1,0 +1,37 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+  }
+  .attribution a { 
+    color: hsl(228, 45%, 44%); 
+  }
+  footer nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0px;
+  }
+  .text-primary {
+    margin: 20px;
+    border: 1px solid #0d6efd;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  .text-primary:hover {
+    color: white !important;
+    background-color: #0d6efd;
+    cursor: pointer;
+  }
+
+  .container {
+    padding: 0px 15%;
+  }
+
+  .copyright {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+  }
