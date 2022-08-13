@@ -35,7 +35,6 @@
 
 
         .sticky img {
-            margin-top: -20px;
             width: 80px;
         }
 
@@ -140,6 +139,23 @@
             color: white;
         }
 
+        @media screen and (max-width: 995px) {
+
+            .sticky {
+                height: 8vh;
+                padding: 0px 2%; 
+            }
+
+        }
+
+        @media screen and (max-width: 450px) {
+        .sticky ul {
+                padding-left: 0px; 
+                display: block;
+            }
+        }
+
+
     </style>
 
     <title>Document</title>
@@ -174,7 +190,7 @@
         <ul class="icons">
             <a class="start start-desktop"  href="#">Free Trial</a>
         </ul>
-        <a href="#" class="hamburger-menu"><i class="fas fa-bars"></i></a>
+        <a href="#" class="hamburger-menu" ><i class="fas fa-bars"></i></a>
     </nav>
     <nav class="mobile-nav">
         <ul class="links">
@@ -198,17 +214,17 @@
                 </li>
         </ul>
     </nav>
-    <div class="text ">
+    <div class="text " >
         <div class="row">
-            <div class="col-lg-6 col-sm-12">
+            <div class="col-lg-6 col-md-12 x">
             <h1>Mass People <br>
                 Oriented Software</h1>
             <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Accumsan porttitor egestas fermentum nulla.</p>
             <a class="start me-3"  href="#">Get Started</a>
             <a class="start last"  href="#">Download</a>
             </div>
-            <div class="col-lg-6 col-sm-12">
-                <img src="head-img.webp" alt="" width="100%;">
+            <div class="col-lg-6 col-md-0 y">
+                <img src="head-img.webp" alt="" class="img-x">
             </div>
         </div>
     </div>
@@ -218,61 +234,68 @@
 <div class="how-container">
     <h1 class="text-center mt-5" style="font-weight: bold;">HOW IT WORK FOR YOU</h1>
     <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-  <div class="row">
-    <div class="col-lg-4 col-md-6 col-sm-12">
-      <img src="icon1.png" alt="" style="width: 80px; margin-left: -15px">
-      <h2>First click tests</h2>
-      <p>While most people enjoy casino gambling,</p>
-    </div>
-    <div class="col-lg-4 col-md-6 col-sm-12">
-      <img src="icon2.png" alt="" style="width: 80px; margin-left: -15px">
-      <h2>Design surveys</h2>
-      <p>Sports betting,lottery and bingo playing for the fun</p>
-    </div>
-    <div class="col-lg-4 col-md-6 col-sm-12">
-      <img src="icon3.png" alt="" style="width: 80px; margin-left: -15px">
-      <h2>Preference tests</h2>
-      <p>The Myspace page defines the individual.</p>
-    </div>
-  </div>
-
-   
-  <div class="pac-section mt-5">
-    <div class="row gx-4">
-      <div class="col-lg-3 col-sm-12">
-       <div class="p-3 border colm" style="background-color: white; display: flex; align-items: center; justify-content: center; font-size: 14px;">
-        EASY TO USE
-       </div>
-      </div>
-      <div class="col-lg-3 col-sm-12">
-        <div class="p-3 border colm" style="background-color: white; display: flex; align-items: center; justify-content: center; font-size: 14px;">
-            UNLIMITED COLORS
+  <div class="row text-center my-5">
+    <div class="col-lg-4 col-sm-12">
+        <div class="x">
+            <i class="fas fa-desktop"></i>
+            <h5>Stunning Visuals</h5>
         </div>
-       </div>
-       <div class="col-lg-3 col-sm-12">
-        <div class="p-3 border colm" style="background: linear-gradient(to right, rgb(60, 175, 241), rgb(158, 223, 235)); display: flex; align-items: center; justify-content: center; font-size: 14px;">
-            UNIQUE FEATURES
+       <p>Here, I focus on a range of items and features that we use in life without giving them a second thought such as Coca Cola.</p>
+    </div>
+    <div class="col-lg-4 col-sm-12">
+        <div class="x">
+            <i class="fas fa-code"></i>
+            <h5>Stunning Visuals</h5>
         </div>
-       </div>
-       <div class="col-lg-3 col-sm-12">
-        <div class="p-3 border colm" style="background-color: white; display: flex; align-items: center; justify-content: center; font-size: 14px;">
-            UNIQUE FEATURES
+       <p>Here, I focus on a range of items and features that we use in life without giving them a second thought such as Coca Cola.</p>
+    </div>
+    <div class="col-lg-4 col-sm-12">
+        <div class="x">
+            <i class="fas fa-clock"></i>
+            <h5>Stunning Visuals</h5>
         </div>
-       </div>
+       <p>Here, I focus on a range of items and features that we use in life without giving them a second thought such as Coca Cola.</p>
     </div>
   </div>
 </div>
 
-<div class="text ">
-    <div class="row">
-        <div class="col-lg-6 col-sm-12">
-        <h1>Mass People <br>
-            Oriented Software</h1>
-        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Accumsan porttitor egestas fermentum nulla.</p>
-        <a class="start me-3 y"  href="#" style="background: linear-gradient(to right, rgb(60, 175, 241), rgb(158, 223, 235)); display: flex; align-items: center; justify-content: center; font-size: 14px; width: 200px; border: none;">Get Started Now</a>
+
+
+<div class="text pb-5">
+    <div class="pac-section my-5">
+        <div class="row g-4">
+          <div class="col-lg-3 col-sm-6" >
+           <div class="p-3 border colm" style="background-color: white; display: flex; align-items: center; justify-content: center; font-size: 14px;">
+            EASY TO USE
+           </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="p-3 border colm" style="background-color: white; display: flex; align-items: center; justify-content: center; font-size: 14px;">
+                UNLIMITED COLORS
+            </div>
+           </div>
+           <div class="col-lg-3 col-sm-6">
+            <div class="p-3 border colm" style="background: linear-gradient(to right, rgb(60, 175, 241), rgb(158, 223, 235)); display: flex; align-items: center; justify-content: center; font-size: 14px;">
+                UNIQUE FEATURES
+            </div>
+           </div>
+           <div class="col-lg-3 col-sm-6">
+            <div class="p-3 border colm" style="background-color: white; display: flex; align-items: center; justify-content: center; font-size: 14px;">
+                UNIQUE FEATURES
+            </div>
+           </div>
         </div>
+      </div>
+    <div class="row my-5">
         <div class="col-lg-6 col-sm-12">
-            <img src="sec-img.webp" alt="" width="100%;">
+        <h1> We’ve made a life <br>
+            that will change you</h1>
+        <h5>We are here to listen from you deliver exellence</h5>   
+        <p class="lorem text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+        <a class="start me-3 y mt-0"  href="#" style="background: linear-gradient(to right, rgb(60, 175, 241), rgb(158, 223, 235)); display: flex; align-items: center; justify-content: center; font-size: 14px; width: 200px; border: none;">Get Started Now</a>
+        </div>
+        <div class="col-lg-6 col-sm-12" style="padding: 20px 10px;">
+            <img src="sec-img.webp" alt="" class="img-x">
         </div>
     </div>
 </div>
@@ -282,23 +305,24 @@
     <h1 class="text-center mt-5" style="font-weight: bold;">UNIQUE SCREENS THAT WORK PERFECTLY</h1>
     <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
     <div class="text-center">
-        <img src="head-img.webp" alt="" width="500px" >
+        <img src="head-img.webp" alt="" class="web-p" >
     </div>
   </div>
 </div>
 
 
 
-<div class="text ">
-    <div class="row">
+<div class="text pb-5">
+    <div class="row mb-5">
         <div class="col-lg-6 col-sm-12">
-        <h1>Mass People <br>
-            Oriented Software</h1>
-        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Accumsan porttitor egestas fermentum nulla.</p>
-        <a class="start me-3 y"  href="#" style="background: linear-gradient(to right, rgb(60, 175, 241), rgb(158, 223, 235)); display: flex; align-items: center; justify-content: center; font-size: 14px; width: 200px; border: none;">Get Started Now</a>
+            <h1> We’ve made a life <br>
+                that will change you</h1>
+            <h5>We are here to listen from you deliver exellence</h5>   
+            <p class="lorem text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+            <a class="start me-3 y mt-0"  href="#" style="background: linear-gradient(to right, rgb(60, 175, 241), rgb(158, 223, 235)); display: flex; align-items: center; justify-content: center; font-size: 14px; width: 200px; border: none;">Get Started Now</a>
         </div>
-        <div class="col-lg-6 col-sm-12">
-            <img src="sec-again.webp" alt="" width="100%;">
+        <div class="col-lg-6 col-sm-12" style="padding: 20px 0px;">
+            <img src="sec-again.webp" alt="" class="img-x">
         </div>
     </div>
 </div>
@@ -306,139 +330,178 @@
 <div class="how-container">
     <h1 class="text-center mt-5" style="font-weight: bold;">CHOOSE YOUR PRICE PLAN</h1>
     <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-    <div class="pac-section">
+    <div class="pac-section pb-5">
         <div class="row gx-4">
-          <div class="col-lg-4 col-sm-12">
-           <div class="p-3 border colm">
-                <p>Basic</p>
-                <ul>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Lorem ipsum dolor</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Curabitur id libero </li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Etiam cursus ex </li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Etiam auctor, erat</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Eleifend arcu nulla </li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Quisque ornare </li>
-                </ul>
-                <a href="#">Free Consultation</a>
+          <div class="col-lg-4 col-sm-12 my-sm-3">
+           <div class="pb-5 border colx text-center">
+                <h5>Real Basic</h5>
+                <p class="my-5">
+                    2.5 GB Space  <br> <br>
+                    Secure Online Transfer <br> <br>
+                    Unlimited Styles <br> <br>
+                    Customer Service
+                </p>
+                <div class="mb mx-5 pt-3 pb-5">
+                    <div style="display: flex; justify-content: center">
+                        <small class="mt-3 me-3" style="font-size: 25px;">$</small>
+                        <h1 style="font-size: 80px; font-weight: bold;">39</h1>
+                        <small class="mt-5 ms-3 text-start" style="font-size: 12px;">Per <br> Month</small>
+                    </div>
+                    <div class="mt-3">
+                        <a href="#">Get Started</a>
+                    </div>
+                </div>
            </div>
           </div>
-          <div class="col-lg-4 col-sm-12">
-            <div class="p-3 border colm">
-                 <p>Basic</p>
-                 <ul>
-                     <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Lorem ipsum dolor</li>
-                     <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Curabitur id libero </li>
-                     <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Etiam cursus ex </li>
-                     <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Etiam auctor, erat</li>
-                     <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Eleifend arcu nulla </li>
-                     <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Quisque ornare </li>
-                 </ul>
-                 <a href="#">Free Consultation</a>
+          <div class="col-lg-4 col-sm-12 my-sm-3">
+            <div class="pb-5 border colx text-center">
+                 <h5>Real Basic</h5>
+                 <p class="my-5">
+                     2.5 GB Space  <br> <br>
+                     Secure Online Transfer <br> <br>
+                     Unlimited Styles <br> <br>
+                     Customer Service
+                 </p>
+                 <div class="mb mx-5 pt-3 pb-5">
+                     <div style="display: flex; justify-content: center">
+                         <small class="mt-3 me-3" style="font-size: 25px;">$</small>
+                         <h1 style="font-size: 80px; font-weight: bold;">39</h1>
+                         <small class="mt-5 ms-3 text-start" style="font-size: 12px;">Per <br> Month</small>
+                     </div>
+                     <div class="mt-3">
+                         <a href="#">Get Started</a>
+                     </div>
+                 </div>
             </div>
            </div>
-           <div class="col-lg-4 col-sm-12">
-            <div class="p-3 border colm">
-                 <p>Basic</p>
-                 <ul>
-                     <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Lorem ipsum dolor</li>
-                     <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Curabitur id libero </li>
-                     <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Etiam cursus ex </li>
-                     <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Etiam auctor, erat</li>
-                     <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Eleifend arcu nulla </li>
-                     <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Quisque ornare </li>
-                 </ul>
-                 <a href="#">Free Consultation</a>
+           <div class="col-lg-4 col-sm-12 my-sm-3">
+            <div class="pb-5 border colx text-center">
+                 <h5>Real Basic</h5>
+                 <p class="my-5">
+                     2.5 GB Space  <br> <br>
+                     Secure Online Transfer <br> <br>
+                     Unlimited Styles <br> <br>
+                     Customer Service
+                 </p>
+                 <div class="mb mx-5 pt-3 pb-5">
+                     <div style="display: flex; justify-content: center">
+                         <small class="mt-3 me-3" style="font-size: 25px;">$</small>
+                         <h1 style="font-size: 80px; font-weight: bold;">39</h1>
+                         <small class="mt-5 ms-3 text-start" style="font-size: 12px;">Per <br> Month</small>
+                     </div>
+                     <div class="mt-3">
+                         <a href="#">Get Started</a>
+                     </div>
+                 </div>
             </div>
            </div>
-        </div>
       </div>
     </div>
     </div>
 </div>
 
 
-<div class="how-container">
-    <h1 class="text-center mt-5" style="font-weight: bold;">CHOOSE YOUR PRICE PLAN</h1>
+<div class="how-container pb-0" style="background-color: transparent;">
+    <h1 class="text-center mt-5" style="font-weight: bold; ">FEEDBACK FROM CUSTOMERS</h1>
     <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
     <div class="pac-section">
-        <div class="row gx-4">
-          <div class="col-lg-6 col-sm-12">
-           <div class="p-3 border colm">
-                <p>Basic</p>
-                <ul>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Lorem ipsum dolor</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Curabitur id libero </li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Etiam cursus ex </li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Etiam auctor, erat</li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Eleifend arcu nulla </li>
-                    <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Quisque ornare </li>
-                </ul>
-                <a href="#">Free Consultation</a>
-           </div>
-          </div>
-          <div class="col-lg-6 col-sm-12">
-            <div class="p-3 border colm">
-                 <p>Basic</p>
-                 <ul>
-                     <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Lorem ipsum dolor</li>
-                     <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Curabitur id libero </li>
-                     <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Etiam cursus ex </li>
-                     <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Etiam auctor, erat</li>
-                     <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Eleifend arcu nulla </li>
-                     <li><i class="fa fa-check" aria-hidden="true"></i> &NonBreakingSpace; Quisque ornare </li>
-                 </ul>
-                 <a href="#">Free Consultation</a>
+    <div class="row gx-4">
+        <div class="col-lg-6 col-sm-12" style="padding: 10px">
+            <div class="p-3 colm">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-12">
+                            <img src="x1.webp" alt="" style="width: 80px; border-radius: 50%;">
+                        </div>
+                        <div class="col-lg-9 col-sm-12">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> 
+                        <h5>Mark Alviro Wiens</h5>
+                        <p>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                        </p>
+                        </div>
+                </div>
             </div>
-           </div>
         </div>
-      </div>
+        <div class="col-lg-6 col-sm-12" style="padding: 10px">
+            <div class="p-3 colm">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-12">
+                            <img src="x2.webp" alt="" style="width: 80px; border-radius: 50%;">
+                        </div>
+                        <div class="col-lg-9 col-sm-12">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p> 
+                        <h5>Mark Alviro Wiens</h5>
+                        <p>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                        </p>
+                        </div>
+                </div>
+            </div>
+        </div>
     </div>
     </div>
 </div>
 
 
-<div class="text ">
-    <div class="row">
-        <div class="col-lg-6 col-sm-12">
-            <img src="head-img.webp" alt="" width="100%;">
+<div class="text py-5" style="background-color: white;">
+    <div class="row py-5">
+        <div class="col-lg-6 col-sm-12" style="padding: 20px 0px;">
+            <img src="head-img.webp" alt="" class="img-x">
         </div>
-        <div class="col-lg-6 col-sm-12">
-        <h1>Mass People <br>
-            Oriented Software</h1>
-        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Accumsan porttitor egestas fermentum nulla.</p>
-        <a class="start me-3 y start-desktop"  href="#" style="background: linear-gradient(to right, rgb(60, 175, 241), rgb(158, 223, 235)); display: flex; align-items: center; justify-content: center; font-size: 14px; width: 200px; border: none;">Get Started Now</a>
+        <div class="col-lg-6 col-sm-12 my-auto">
+            <h1> We’ve made a life <br>
+                that will change you</h1>
+            <h5>We are here to listen from you deliver exellence</h5>   
+            <p class="lorem text-muted mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or <br> incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+            <a class="start me-3 y mt-0"  href="#" style="background: linear-gradient(to right, rgb(60, 175, 241), rgb(158, 223, 235)); display: flex; align-items: center; justify-content: center; font-size: 14px; width: 200px; border: none;">Get Started Now</a>
         </div>
     </div>
 </div>
 
 
-<div class="how-container">
+<div class="how-container py-5" style="color: white; background-color: rgb(60, 175, 241); ">
     <h1 class="text-center mt-5" style="font-weight: bold;">Got Impressed to our features?</h1>
     <p class="text-center mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-    <div class="text-center">
+    <div class="text-center pb-5">
         <a class="start me-3 y start last" href="#"> Request Free Demo </a>
     </div>
   </div>
 </div>
 
 
-<div class="container my-5 footer">
-    <div class="row mt-5">
-      <div class="col-lg-4 col-sm-12">
+<div class="footer">
+    <div class="row py-5 ">
+      <div class="col-lg-4 col-sm-12" style="padding: 10px;">
         <h5>About Me</h5>
         <p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills,</p>
-        <p>Copyright ©2022 All rights reserved | This template is made with <i class="fas fa-heart"></i> by Colorlib
+        <p>Copyright ©2022 All rights reserved | This template is made with <i class="fas fa-heart"></i> by <br> <a href="" style="text-decoration: none; color: rgb(60, 175, 241);">Colorlib</a> 
         </p>
     </div>
-    <div class="col-lg-4 col-sm-12">
+    <div class="col-lg-4 col-sm-12" style="padding: 10px;">
     <form action="">
         <h5>Newsletter</h5>
-        <p>Stay updated with our latest trends</p>  
-        <input type="text" class="p-2" placeholder="Enter your phone Number" style="width: 100%;"> <br> <br>
+        <p>Stay updated with our latest trends</p> 
+        <div class="f-div"> 
+            <input type="text" class="p-2" placeholder="Enter your phone Number" style="width: 80%; border: none; outline: none;"> <button style="width: 20%; border: none; background-color:rgb(60, 175, 241); color: white; font-size: 20px;">&#8594;</button> <br> <br>
+        </div>
     </form>
     </div>
-    <div class="col-lg-4 col-sm-12">
+    <div class="col-lg-4 col-sm-12" style="padding: 10px;">
         <h5>Follow Me</h5>
+        <div>
+        <a href=""><span class="iconify" data-icon="akar-icons:facebook-fill" style="font-size: 20px; margin-right: 10px;"></span></a>
+        <a href=""><span class="iconify" data-icon="ant-design:twitter-circle-filled" style="font-size:23px; margin-right: 10px;"></span></a>
+        <a href=""><span class="iconify" data-icon="ant-design:instagram-filled" style="font-size: 25px; margin-right: 10px;"></span></a>
+        <a href=""><span class="iconify" data-icon="mdi:gmail" style="font-size:25px; margin-right: 10px;"></span>
+        </div>
     </div>
 </div>
 
@@ -466,17 +529,25 @@
 <script>
     var nav = document.querySelector('.nav');
     var mobile = document.querySelector('.mobile-nav')
+    var header = document.querySelector('.header')
+
     window.addEventListener('scroll', function(){
-
-
-        // console.log(nav)
-        // nav.classList.add("sticky", window.scrollY > 200);
         if(window.scrollY > 200) {
             nav.classList.replace('nav', 'sticky')
             mobile.classList.replace('mobile-nav', 'mobile-sticky')
+            header.style.height = '500px';
+
         } else {
             nav.classList.replace('sticky', 'nav')
             mobile.classList.replace('mobile-sticku', 'mobile-nav')
+            header.style.height = '700px';
+        }
+
+        if(window.screen.width <= 995) {
+            header.style.height = '550px'
+                if(window.scrollY > 200) {
+                    header.style.height = '400px'
+                }
         }
     })
 </script>
